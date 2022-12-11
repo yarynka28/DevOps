@@ -9,7 +9,7 @@
 ![image](https://user-images.githubusercontent.com/104198926/206923511-ae949e7f-12d8-41db-b9fa-df47274f5294.png)
 
 ##### Template for web-server installation:
-```
+```bash
 #cloud-config
 package_upgrade: true
 packages:
