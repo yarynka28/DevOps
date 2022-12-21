@@ -1,6 +1,6 @@
 # Introduction to AWS
 
-##### Public IP of Moodle - *http://54.172.93.19/my/*
+##### Public IP of Moodle - *http://54.172.93.19*
 ![image](https://user-images.githubusercontent.com/104198926/208926731-6e18c56d-0426-4696-bf8b-7f5c83cfd859.png)
 ##### Data for test login:
 ```
