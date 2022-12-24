@@ -176,4 +176,4 @@ resource "google_compute_instance" "this" {
   }
 }
 ```
-After running the [google_cloud.tf](task4/google_cloud.tf) file with the command *terraform apply*, we will get an instance on which WordPress will be deployed
+After running the [google_cloud.tf](google_cloud.tf) file with the command *terraform apply*, we will get an instance on which WordPress will be deployed
