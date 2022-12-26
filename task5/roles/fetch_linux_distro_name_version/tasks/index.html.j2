@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DevOps</title>
+</head>
+<body>
+    <h2>Information about instance</h2>
+    Public IP : {{ ipify_public_ip }} </a><br>
+    Internal hostname : {{ ansible_fqdn }} <br>
+    Distribution :  {{ ansible_distribution }} <br>
+    Distribution version :  {{ ansible_distribution_version }} <br>
+    Distribution release : {{ ansible_distribution_release }} <br>
+    Internal IP of this instance :  {{ ansible_default_ipv4.address }}
+</body>
+</html>
