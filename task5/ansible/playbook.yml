@@ -1,0 +1,13 @@
+---
+- name: Create empty file
+  hosts: iaas
+  gather_facts: yes
+  roles:
+    - create_empty_file
+    
+- name: Fetch a linux distro name/version
+  become: true
+  hosts: all
+  gather_facts: yes
+  roles:
+    - fetch_linux_distro_name_version

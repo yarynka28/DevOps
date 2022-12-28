@@ -1,0 +1,12 @@
+[group1]
+vm1 ansible_host=54.172.64.4  ansible_ssh_private_key_file=.ssh/vm1.pem  ansible_user=ubuntu
+
+[group2]
+vm2 ansible_host=34.201.59.154  ansible_ssh_private_key_file=.ssh/vm2.pem  ansible_user=ubuntu
+
+[group3]
+vm3 ansible_host=34.239.108.192  ansible_ssh_private_key_file=.ssh/vm3.pem  ansible_user=ubuntu
+
+[iaas:children]
+group1
+group2
