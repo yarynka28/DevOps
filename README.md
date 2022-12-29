@@ -5,7 +5,7 @@
 - Lesson 3. Intorduction to AWS ([Homework](task3/Homework3.md))
 - Lesson 4. Intorduction to GCP ([Homework](task4/Homework4.md))
 - Lesson 5. IaaC tools: Ansible ([Homework](task5/Homework5.md))
-- Lesson 6. IaaC tools: Terraform 
+- Lesson 6. IaaC tools: Terraform ([Homework](task6/Homework6.md))
 ## BLOCK 2 "Security"		
 - Lesson 7. Hardening. Part 1 - Threat landscape and attack vectors
 - Lesson 8. Hardening. Part 2 - Crearting security controls
