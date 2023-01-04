@@ -1,6 +1,6 @@
 # Global Logic. DevOps BaseCamp
 ## BLOCK 1 "Building Cloud Infrastructure"		
-- Lesson 1. Cloud Concepts ([Homework](task1/Homework1.md))
+- [Lesson 1. Cloud Concepts](task1/Lesson1.md) ([Homework](task1/Homework1.md))
 - Lesson 2. Intorduction to Azure ([Homework](task2/Homework2.md))
 - Lesson 3. Intorduction to AWS ([Homework](task3/Homework3.md))
 - Lesson 4. Intorduction to GCP ([Homework](task4/Homework4.md))
