@@ -11,11 +11,11 @@
 - Lesson 8. Hardening. Part 2 - Crearting security controls
 - Lesson 9. Hardening. Practice
 - Lesson 10. Security Analytics
-## BLOCK 3 "CI/CD & Infrastructure building"		
-- Lesson 10. Docker
-- Lesson 12. K8S (Introducing)
-- Lesson 13. K8S (CRE, Docker)
-- Lesson 14. K8S (Helm)
-- Lesson 15. K8S (Operators)
-- Lesson 16. Jenkins/-CI pipelines/Groovy
+## BLOCK 3 "CI/CD & Infrastructure building"
+- Lesson 11. Jenkins/-CI pipelines/Groovy
+- Lesson 12. Docker
+- Lesson 13. K8S (Introducing)
+- Lesson 14. K8S (CRE, Docker)
+- Lesson 15. K8S (Helm)
+- Lesson 16. K8S (Operators)
 - Lesson 17. Final Task
