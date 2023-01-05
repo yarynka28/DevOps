@@ -38,3 +38,7 @@ To run my code you need to have [git](https://git-scm.com/downloads) and [terraf
 
 ##### Public IP of Azure instance - *http://23.97.231.150*
 ![image](https://user-images.githubusercontent.com/104198926/210243728-a94d8635-4eee-44b3-8ef8-0c4fbcb86242.png)
+
+##### Output in terminal after destroying:
+![image](https://user-images.githubusercontent.com/104198926/210838515-3b821ebf-bfba-4820-86e9-2881408be930.png)
+
