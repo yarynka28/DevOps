@@ -7,10 +7,7 @@
 - Lesson 5. IaaC tools: Ansible ([Homework](task5/Homework5.md))
 - Lesson 6. IaaC tools: Terraform ([Homework](task6/Homework6.md))
 ## BLOCK 2 "Security"		
-- Lesson 7. Hardening. Part 1 - Threat landscape and attack vectors
-- Lesson 8. Hardening. Part 2 - Crearting security controls
-- Lesson 9. Hardening. Practice
-- Lesson 10. Security Analytics
+- Lesson 7-8. Hardening ([Homework](task7-8/Homework7-8.md))
 ## BLOCK 3 "CI/CD & Infrastructure building"
 - Lesson 11. Jenkins/-CI pipelines/Groovy
 - Lesson 12. Docker
