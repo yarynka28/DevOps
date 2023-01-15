@@ -1,0 +1,5 @@
+- name: Harden users passwords
+  ansible.builtin.replace:
+    path: /etc/pam.d/common-password
+    regexp: 'pam_pwquality.so retry=3'
+    replace: 'pam_pwquality.so retry=3 usercheck = 1 enforce_for_root'

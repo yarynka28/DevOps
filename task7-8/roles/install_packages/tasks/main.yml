@@ -1,0 +1,7 @@
+- name: Install packages
+  apt:
+    name:
+      - libpam-pwquality
+      - cracklib-runtime
+    state: present
+    update_cache: yes

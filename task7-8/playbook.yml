@@ -1,0 +1,7 @@
+---
+- name: Install packages and harden users passwords
+  hosts: pam_hardener
+  become: yes
+  roles:
+    - install_packages
+    - harden_passwords
