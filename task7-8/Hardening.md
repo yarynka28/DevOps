@@ -18,6 +18,8 @@ To connect to the instance I used command in WSL:
 ```
 ssh -i "task7-8.pem" ubuntu@ec2-44-201-206-143.compute-1.amazonaws.com
 ```
+![image](https://user-images.githubusercontent.com/104198926/213129997-000a2cc2-cc76-46b4-85f6-594baec21d5b.png)
+
 ### Results:
 #### Changing password for user `user12`:
 - Add user \
