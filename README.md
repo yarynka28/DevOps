@@ -9,10 +9,10 @@
 ## BLOCK 2 "Security"		
 - Lesson 7-8. Hardening ([Homework](task7-8/Homework7-8.md))
 ## BLOCK 3 "CI/CD & Infrastructure building"
-- Lesson 11. Jenkins/-CI pipelines/Groovy
-- Lesson 12. Docker
-- Lesson 13. K8S (Introducing)
-- Lesson 14. K8S (CRE, Docker)
-- Lesson 15. K8S (Helm)
-- Lesson 16. K8S (Operators)
-- Lesson 17. Final Task
+- Lesson 9. Jenkins/-CI pipelines/Groovy ([Homework](task9/Homework9.md))
+- Lesson 10. Docker
+- Lesson 11. K8S (Introducing)
+- Lesson 12. K8S (CRE, Docker)
+- Lesson 13. K8S (Helm)
+- Lesson 14. K8S (Operators)
+- Lesson 15. Final Task
