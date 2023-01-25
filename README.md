@@ -10,7 +10,7 @@
 - Lesson 7-8. Hardening ([Homework](task7-8/Homework7-8.md))
 ## BLOCK 3 "CI/CD & Infrastructure building"
 - Lesson 9. Jenkins/-CI pipelines/Groovy ([Homework](task9/Homework9.md))
-- Lesson 10. Docker
+- Lesson 10. Docker ([Homework](task10/Homework10.md))
 - Lesson 11. K8S (Introducing)
 - Lesson 12. K8S (CRE, Docker)
 - Lesson 13. K8S (Helm)
