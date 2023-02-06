@@ -1,0 +1,12 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: job-internal-port
+spec:
+  template:
+    spec:
+      containers:
+      - name: job-internal-port
+        image: curlimages/curl:latest
+        command: ['sh', '-c', 'curl http://10.96.1.10:80/']
+      restartPolicy: OnFailure

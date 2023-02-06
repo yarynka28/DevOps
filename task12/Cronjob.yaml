@@ -1,0 +1,16 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: cronjob
+spec:
+  schedule: "*/3 * * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: cronjob
+            image: curlimages/curl:latest
+            imagePullPolicy: IfNotPresent
+            command: ['sh', '-c', 'date;curl -s -o /dev/null -w "Status %{http_code}\n" http://10.96.1.10/'] 
+          restartPolicy: OnFailure
