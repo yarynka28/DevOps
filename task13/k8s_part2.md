@@ -10,8 +10,8 @@ git clone https://github.com/kubernetes-sigs/kubespray.git
 cd kubespray
 git checkout release-2.20
 ```
-![image](https://user-images.githubusercontent.com/104198926/217777531-99b8a5e0-51b4-43d5-9102-364ba6189534.png)
-
+![image](https://user-images.githubusercontent.com/104198926/218283108-06ed9f87-5dad-4071-b78e-cdea18760219.png)
+![image](https://user-images.githubusercontent.com/104198926/218283116-87e6d2ed-3d8b-4043-88de-932a0b96a5a5.png)
 ```ini
 [all]
 node1 ansible_host=35.240.114.30
