@@ -7,7 +7,7 @@
 ![image](https://user-images.githubusercontent.com/104198926/218323375-dc022f2a-ab54-4624-a01b-9709bc512b5d.png)
 3. I test SSH connection from local machine:
 ```
-ssh -i k8s yaryna_28@35.240.114.30
+ssh -i k8s yaryna_28@34.79.182.243
 ``` 
 ![image](https://user-images.githubusercontent.com/104198926/217777263-c7024464-281c-4b32-b0e7-4146e7d33f0f.png) \
 4. I clone Kubespray release repository:
@@ -25,7 +25,7 @@ nano inventory/mycluster/inventory.ini
 ```
 ```ini
 [all]
-node1 ansible_host=35.240.114.30
+node1 ansible_host=34.79.182.243
 
 [kube_control_plane]
 node1
@@ -130,11 +130,15 @@ kubectl apply -f ingress.yaml
  ```
  kubectl apply -f production-issuer.yaml
  ```
-# Finding the solution:
- ```
- kubectl describe certificate
- ```
- ![image](https://user-images.githubusercontent.com/104198926/218324907-1a50f6de-80f5-46f8-81cf-6955e9351496.png)
+ List of created certificates: `kubectl get certificate` \
+![image](https://user-images.githubusercontent.com/104198926/218338978-f340037e-8aec-4afe-af16-abb5f9811635.png) \
+Show information about certificate: `kubectl describe certificate` \
+![image](https://user-images.githubusercontent.com/104198926/218339016-32509654-254d-44d9-8597-f53157dcad7f.png) \
+
+### Result
+https://yhorodetska.dynv6.net/
+![image](https://user-images.githubusercontent.com/104198926/218339305-22ed7f19-356e-49ba-99a7-ab6113f0cfc8.png)
+
 
  
 
