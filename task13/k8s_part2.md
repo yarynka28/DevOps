@@ -112,7 +112,7 @@ kubectl get svc --all-namespaces
  ```
  kubectl get pods
  ```
- ![image](https://user-images.githubusercontent.com/104198926/218316067-34ad2c10-e399-4cef-9748-540ca3970481.png)
+ ![image](https://user-images.githubusercontent.com/104198926/218316067-34ad2c10-e399-4cef-9748-540ca3970481.png) \
 2. I run ingress.yaml file:
 ```
 kubectl apply -f ingress.yaml
@@ -121,7 +121,7 @@ kubectl apply -f ingress.yaml
  ```
  kubectl get ingress
  ```
- ![image](https://user-images.githubusercontent.com/104198926/218324516-f3dedab9-e935-4502-adc3-35899450d06d.png)
+ ![image](https://user-images.githubusercontent.com/104198926/218324516-f3dedab9-e935-4502-adc3-35899450d06d.png) \
  3.I run letsencrypt-staging:
  ```
  kubectl apply -f staging-issuer.yaml
@@ -130,6 +130,12 @@ kubectl apply -f ingress.yaml
  ```
  kubectl apply -f production-issuer.yaml
  ```
+# Finding the solution:
+ ```
+ kubectl describe certificate
+ ```
+ ![image](https://user-images.githubusercontent.com/104198926/218324907-1a50f6de-80f5-46f8-81cf-6955e9351496.png)
+
  
 
 
