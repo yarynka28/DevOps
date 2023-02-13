@@ -22,4 +22,6 @@ https://yhorodetska.dynv6.net/nginx-helm
 2. Get the list of of releases: `helm ls`
 ![image](https://user-images.githubusercontent.com/104198926/218417595-54aee50a-918d-44e1-b791-bf28b52dd5d2.png)
 3. Get the list of all created resources: `kubectl get all` \
-![image](https://user-images.githubusercontent.com/104198926/218417776-961465ed-be19-4794-b74e-579f03574be9.png)
+![image](https://user-images.githubusercontent.com/104198926/218417776-961465ed-be19-4794-b74e-579f03574be9.png) 
+ > Note \
+ > https://docs.microfocus.com/doc/Containerized_Operations_Bridge/2020.08/TShelmCannotreusename
