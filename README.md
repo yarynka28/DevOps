@@ -14,5 +14,5 @@
 - Lesson 11. K8S (Introducing) ([Homework](task11/Homework11.md))
 - Lesson 12. K8S (CRE, Docker) ([Homework](task12/Homework12.md))
 - Lesson 13. K8S (Helm) ([Homework](task13/Homework13.md))
-- Lesson 14. K8S (Operators)
+- Lesson 14. K8S (Operators) ([Homework](task14/Homework14.md))
 - Lesson 15. Final Task
