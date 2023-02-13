@@ -1,0 +1,6 @@
+container:
+  image: golucky5/pacman
+
+replicaCount: 3
+
+host: yhorodetska.dynv6.net/
